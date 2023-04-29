@@ -19,7 +19,7 @@ const indexHtml = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
 app.post('/api/edit', async (req, res) => {
   const message = req.body.message;
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "",
   });
   const openai = new OpenAIApi(configuration);
 
