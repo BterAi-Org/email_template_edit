@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-content {
+    min-height: 200vh;
+    padding: 1rem;
+  }
+  
+  .chat-input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .chat-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+  }
+  
+  .send-button,
+  .record-voice {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .send-button:hover,
+  .record-voice:hover {
+    background-color: #0069d9;
+  }
+  
